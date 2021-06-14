@@ -50,6 +50,7 @@ textarea {
     display: block;
     text-align: center;
     
+    
 }
 
 img {
@@ -70,5 +71,55 @@ button {
 ul {
     line-height: 25px;
 }
+.nav {
+    margin-left: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: rgb(224, 181, 215);
+    
+    position: sticky;
+    float: right;
+    top: 0;
+}
+.flex {
+    background: rgb(224, 181, 215);
+    display: flex;
+}
+.flex2 {
+    display: flex;
+    padding: 10px;
+    background-color: rgb(224, 181, 215);
+}
+.shows {
+   flex: 1; 
+   margin: 5px;
+   padding: 4px;
+   border: 2px solid #242424;
+}
+.movies {
+    flex: 2;
+    margin: 5px;
+    padding: 4px;
+    border: 2px solid #242424;
+
+}
+.games {
+    flex: 1;
+    margin: 5px;
+    padding: 4px;
+    border: 2px solid #242424;
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 

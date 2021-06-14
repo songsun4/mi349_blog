@@ -8,26 +8,35 @@
     <title>Contact Me</title>
 </head>
 <body>
+
+    <div class = nav>
+        <p><a href=blog.html>Read My Blog</a></p>
+        <p><a href=about.html>About Me</a></p>
+        <p><a href=index.html>Main Page</a></p>
+    </div>
+
     <h1>Contact</h1>
     <section>
         <form>
-            <label>
-                Name
-                <input type="text">
-            </label>
-            <label>
-                Email address
-                <input type="email">
-            </label>
-            <label>
-                Reason for contact:
-            </label>
+            <div class = "flex">
+                <label class = "name">
+                    Name:
+                    <input type="text">
+                </label>
+                <label class = "email">
+                    Email address:
+                    <input type="email">
+                </label>
+                <label class = "reasons">
+                    Reason for contact:
+                </label>
             <select id="reason" name="reasons">
                 <option value="saying hi">Saying hi</option>
                 <option value="looking for a contractor">looking for a contractor</option>
                 <option value="interested in an interview">interested in an interview</option>
-                
+
             </select>
+           </div>
             <textarea name="Add comment here" rows="10" cols="30">Add comment here</textarea>
             <button>Submit</button>
 
