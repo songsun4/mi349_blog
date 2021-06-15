@@ -111,6 +111,13 @@ ul {
 
 }
 
+@media (max-width: 400px) {
+    body {
+        background: #97d6e5;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+
 
 
 
